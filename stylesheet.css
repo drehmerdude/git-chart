@@ -51,12 +51,12 @@ body {
 }
 
 .subtitles {
-    margin: 0px;
     font-family: chelsea-market;
     font-size: 22px;
-    padding: 5px 0px 5px 0px;
+    margin: 5px 0px 5px 0px;
     background-color: inherit;
     color: red;
+    position: relative;
 }
 
 .header{
@@ -78,31 +78,37 @@ body {
 
 .second{
     height: 179px;
-    overflow: visible;
+    position: relative;
 }
 
 .third{
     height: 163px;
+    position: relative;
 }
 
 .fourth{
     height: 216px;
+    position: relative;
 }
 
 .fifth{
     height: 225px;
+    position: relative;
 }
 
 .sixth{
     height: 157px;
+    position: relative;
 }
 
 .seventh{
     height: 157px;
+    position: relative;
 }
 
 .eighth{
     height: 115px;
+    position: relative;
 }
 
 .bball{
@@ -130,15 +136,13 @@ body {
 }
 
 .vline{
-    background-color:black;
-    height: 1097px;
+    background-color: black;
+    height: 100%;
     width: 2px;
-    border-collapse: collapse;
-    position:relative;
-    float: left;
-    top: -17px;
+    position: absolute;
+    top: 0;
     left: 50%;
-    margin-left: -2px;
+    margin-left: auto;
 }
 
 .obs{
