@@ -1,0 +1,159 @@
+*{
+    
+}
+html {
+    margin: 0px;
+    width: 998px;
+    height: 1440px;
+}
+body {
+    margin: 0px;
+    width: 998px;
+    height: 1440px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    text-align: center;
+    width: 998px;
+    height: 1440px;
+}
+
+.txtcontainer{
+    overflow: hidden;
+}
+
+.impar{
+    backgound-color: #ffffff;
+}
+
+.par{
+    background-color: #ededed;
+}
+
+.left{
+    text-align: right;
+    width: 49%;
+    position: relative;
+    display: block;
+    float: left;
+    border-collapse: collapse;
+    
+}
+
+.right{
+    text-align: left;
+    font-style: italic;
+    width: 49%;
+    margin-left: 51%;
+    position: relative;    
+}
+
+.subtitles {
+    margin: 0px;
+    font-family: chelsea-market;
+    font-size: 22px;
+    padding: 5px 0px 5px 0px;
+    background-color: inherit;
+    color: red;
+}
+
+.header{
+    height: 228px;
+}
+
+#topheader {
+    font-family: chelsea-market;
+    font-size: 75px;
+    margin: 0px;
+    padding: 45px 0px 14px 0px;
+}
+
+.headsubtitle {
+    margin: 0px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.second{
+    height: 179px;
+    overflow: visible;
+}
+
+.third{
+    height: 163px;
+}
+
+.fourth{
+    height: 216px;
+}
+
+.fifth{
+    height: 225px;
+}
+
+.sixth{
+    height: 157px;
+}
+
+.seventh{
+    height: 157px;
+}
+
+.eighth{
+    height: 115px;
+}
+
+.bball{
+    background-color: black;
+    border-radius: 50%;
+    border-collapse: collapse;
+    height: 34px;
+    width: 34px;
+    position: relative;
+    top: -17px;
+    left: 50%;
+    margin-left: -17px;    
+}
+
+.lball{
+    background-color: black;
+    border-radius: 50%;
+    border-collapse: collapse;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: -8px;
+    left: 50%;
+    margin-left: -8px;
+}
+
+.vline{
+    background-color:black;
+    height: 1097px;
+    width: 2px;
+    border-collapse: collapse;
+    position:relative;
+    float: left;
+    top: -17px;
+    left: 50%;
+    margin-left: -2px;
+}
+
+.obs{
+    
+}
+
+.obsi{
+    
+}
+
+#tip {
+    float: right;
+    position:relative;
+    right: -1%;
+    bottom: 10%;
+    width: 229px;
+    height: 120px;
+}
