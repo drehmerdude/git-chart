@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
     
     <head> 
@@ -13,8 +13,8 @@
         <div class="container">
             <div class="impar header">
                 <p id="topheader">git cheat sheet</p>
-                <p class="headsubtitle">learn more about git the simple way at <strong><em>rogerdudler.github.com/git-guide/</em></strong></p>
-                <p class="headsubtitle">cheat sheet created by Nina Jaeschke of <strong><em>ninagrafik.com</em></strong></p>
+                <p class="headsubtitle">learn more about git the simple way at <em>rogerdudler.github.com/git-guide/</em></p>
+                <p class="headsubtitle">cheat sheet created by Nina Jaeschke of <em>ninagrafik.com</em></p>
             </div>
             <div class="par second">
                 <div class="bball"></div>
@@ -22,14 +22,14 @@
                 <p class="subtitles">create &amp; clone</p>
                 <div class="txtcontainer">
                     <div class="left">
-                        <p><strong>create new </strong>repository</p>
-                        <p><strong>clone local </strong>repository</p>
-                        <p><strong>clone remote</strong>repository</p>
+                        <p class="p"><strong>create new </strong>repository</p>
+                        <p class="p"><strong>clone local </strong>repository</p>
+                        <p class="p"><strong>clone remote</strong>repository</p>
                     </div>
                     <div class="right">
-                        <p>git init</p>
-                        <p>git clone /path/to/repository</p>
-                        <p>git clone username@host:/path/to/repository</p>
+                        <p class="p">git init</p>
+                        <p class="p">git clone /path/to/repository</p>
+                        <p class="p">git clone username@host:/path/to/repository</p>
                     </div>
                 </div>
             </div>
@@ -39,17 +39,14 @@
                 <p class="subtitles">add &amp; remove</p>
                 <div class="txtcontainer">
                     <div class="left">
-                        <p><strong>add</strong> changes to INDEX</p>
-                        <p><strong>add all</strong> changes to INDEX</p>
-                        <p><strong>remove/delete</strong></p>
+                        <p class="p"><strong>add</strong> changes to INDEX</p>
+                        <p class="p"><strong>add all</strong> changes to INDEX</p>
+                        <p class="p"><strong>remove/delete</strong></p>
                     </div>
                     <div class="right">
-                        <p>git add &lt;filename&gt;</p>
-
-                        <!--substituir () por <> -> como escrever < &lt;  > &gt; ?-->
-
-                        <p>git add *</p>
-                        <p>git rm filename</p>
+                        <p class="p">git add &lt;filename&gt;</p>
+                        <p class="p">git add *</p>
+                        <p class="p">git rm filename</p>
                     </div>
                 </div>
             </div>
@@ -59,37 +56,38 @@
                 <p class="subtitles">commit &amp; synchronize</p>
                 <div class="txtcontainer">
                     <div class="left">
-                        <p>commit changes</p>
-                        <p>push changes to remote repository</p>
-                        <p><strong>connect</strong> local repository to remote repository</p>
-                        <p><strong>update</strong> local repository with remote changes</p>
+                        <p class="p">commit changes</p>
+                        <p class="p">push changes to remote repository</p>
+                        <p class="p"><strong>connect</strong> local repository to remote repository</p>
+                        <p class="p"><strong>update</strong> local repository with remote changes</p>
                     </div>
                     <div class="right">
-                        <p>git commit -m "Commit message"</p>
-                        <p>git push origin master</p>
-                        <p>git remote add origin &lt;sever&gt;</p>
-                        <p>git pull</p>
+                        <p class="p">git commit -m "Commit message"</p>
+                        <p class="p">git push origin master</p>
+                        <p class="p">git remote add origin &lt;sever&gt;</p>
+                        <p class="p">git pull</p>
                     </div>
                 </div>
             </div>
             <div class="impar fifth">
                 <div class="lball"></div>
-                <div class="vline"></div>
+                <div class="vline whitepart"></div>
+                <div class="vline blackpart"></div>
                 <p class="subtitles">branches</p>
                 <div class="txtcontainer">
                     <div class="left">
-                        <p><strong>create</strong> new branch</p>
-                        <p class="obsi">obsi</p>
-                        <p><strong>switch to</strong> master branch</p>
-                        <p><strong>delete</strong> branch</p>
-                        <p><strong>push branch</strong> to remote repository</p>
+                        <p class="p"><strong>create</strong> new branch</p>
+                        <p class="p obsi">obsi</p>
+                        <p class="p"><strong>switch to</strong> master branch</p>
+                        <p class="p"><strong>delete</strong> branch</p>
+                        <p class="p"><strong>push branch</strong> to remote repository</p>
                     </div>
                     <div class="right">
-                        <p>git checkout -b &lt;branch&gt;</p>
-                        <p class="obs">e.g. git checkout -b feature_x</p>
-                        <p>git checkout master</p>
-                        <p>git branch -d &lt;branch&gt;</p>
-                        <p>git push origin &lt;branch&gt;</p>
+                        <p class="p">git checkout -b &lt;branch&gt;</p>
+                        <p class="p obs">e.g. git checkout -b feature_x</p>
+                        <p class="p">git checkout master</p>
+                        <p class="p">git branch -d &lt;branch&gt;</p>
+                        <p class="p">git push origin &lt;branch&gt;</p>
                     </div>
                 </div>
             </div>
@@ -99,14 +97,14 @@
                 <p class="subtitles">merge</p>
                 <div class="txtcontainer">
                     <div class="left">
-                        <p><strong>merge changes</strong> from another branch</p>
-                        <p><strong>view changes</strong> between two branches</p>
-                        <p class="obsi">obsi</p>
+                        <p class="p"><strong>merge changes</strong> from another branch</p>
+                        <p class="p"><strong>view changes</strong> between two branches</p>
+                        <p class="p obsi">obsi</p>
                     </div>
                     <div class="right">
-                        <p>git merge &lt;branch&gt;</p>
-                        <p>git diff &lt;source_branch&gt; &lt;target_branch&gt;</p>
-                        <p class="obs">e.g. git diff feature_x feature_y</p>
+                        <p class="p">git merge &lt;branch&gt;</p>
+                        <p class="p">git diff &lt;source_branch&gt; &lt;target_branch&gt;</p>
+                        <p class="p obs">e.g. git diff feature_x feature_y</p>
                     </div>
                 </div>
             </div>
@@ -116,27 +114,26 @@
                 <p class="subtitles">tagging</p>
                 <div class="txtcontainer">
                     <div class="left">
-                        <p><strong>create tag</strong></p>
-                        <p class="obsi">obsi</p>
-                        <p><strong>get commit IDs</strong></p>
+                        <p class="p"><strong>create tag</strong></p>
+                        <p class="p obsi">obsi</p>
+                        <p class="p"><strong>get commit IDs</strong></p>
                     </div>
                     <div class="right">
-                        <p>git tag &lt;tag&gt; &lt;commit ID&gt;</p>
-                        <p class="obs">e.g. git tag 1.0.0 1b2e1d63ff</p>
-                        <p>git log</p>
+                        <p class="p">git tag &lt;tag&gt; &lt;commit ID&gt;</p>
+                        <p class="p obs">e.g. git tag 1.0.0 1b2e1d63ff</p>
+                        <p class="p">git log</p>
                     </div>
                 </div>
             </div>
             <div class="par eighth">
                 <div class="lball"></div>
-                <div class="vline"></div>
                 <p class="subtitles">restore</p>
                 <div class="txtcontainer">
                     <div class="left">
-                        <p><strong>replace</strong> working copy with latest from HEAD</p>
+                        <p class="p"><strong>replace</strong> working copy with latest from HEAD</p>
                     </div>
                     <div class="right">
-                        <p>git checkout --&lt;filename&gt;</p>
+                        <p class="p">git checkout --&lt;filename&gt;</p>
                     </div>
                 </div>
             </div>

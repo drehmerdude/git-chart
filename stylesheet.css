@@ -1,6 +1,3 @@
-*{
-    
-}
 html {
     margin: 0px;
     width: 998px;
@@ -22,10 +19,18 @@ body {
 
 .txtcontainer{
     overflow: hidden;
+    margin: 0px;
+    font-size: 19px;
 }
 
+
+.txtcontainer .p {
+    margin: 12px 8px 0px 8px;
+}
+
+
 .impar{
-    backgound-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .par{
@@ -34,7 +39,7 @@ body {
 
 .left{
     text-align: right;
-    width: 49%;
+    width: 48%;
     position: relative;
     display: block;
     float: left;
@@ -45,18 +50,52 @@ body {
 .right{
     text-align: left;
     font-style: italic;
-    width: 49%;
-    margin-left: 51%;
+    width: 48%;
+    margin-left: 493px;
     position: relative;    
 }
 
 .subtitles {
     font-family: chelsea-market;
-    font-size: 22px;
-    margin: 5px 0px 5px 0px;
+    font-size: 21px;
     background-color: inherit;
-    color: red;
     position: relative;
+    top: -7px;
+}
+
+.second .subtitles {
+    margin: -4px 35px -14px 0px;
+    padding: 2px 0px 3px 0px;
+}
+
+.third .subtitles {
+    margin: 5px 28px -10px 0px;
+    padding: 1px 0px 2px 0px;
+}
+
+.fourth .subtitles {
+    margin: 16px -4px -12px 0px;
+    padding: 2px 0px 2px 0px;
+}
+
+.fifth .subtitles {
+    margin: -3px 12px -10px 0px;
+    padding: 2px 0px 2px 0px;
+}
+
+.sixth .subtitles {
+    margin: -2px 24px -14px 0px;
+    padding: 1px 0px 4px 0px;
+}
+
+.seventh .subtitles {
+    margin: 5px 20px -14px 0px;
+    padding: 2px 0px 5px 0px;
+}
+
+.eighth .subtitles {
+    margin: 5px 22px -10px 0px;
+    padding: 2px 0px 5px 0px;
 }
 
 .header{
@@ -67,12 +106,12 @@ body {
     font-family: chelsea-market;
     font-size: 75px;
     margin: 0px;
-    padding: 45px 0px 14px 0px;
+    padding: 46px 21px 10px 0px;
 }
 
 .headsubtitle {
     margin: 0px;
-    padding: 2px;
+    padding: 2px 24px 0px 0px;
     font-size: 14px;
 }
 
@@ -115,24 +154,26 @@ body {
     background-color: black;
     border-radius: 50%;
     border-collapse: collapse;
-    height: 34px;
-    width: 34px;
+    height: 33px;
+    width: 33px;
     position: relative;
-    top: -17px;
+    top: -18px;
     left: 50%;
-    margin-left: -17px;    
+    margin-left: -31px;
+    margin-bottom: 0;
 }
 
 .lball{
     background-color: black;
     border-radius: 50%;
     border-collapse: collapse;
-    height: 15px;
-    width: 15px;
+    height: 14px;
+    width: 14px;
     position: relative;
     top: -8px;
     left: 50%;
-    margin-left: -8px;
+    margin-left: -21px;
+    margin-bottom: 12px;
 }
 
 .vline{
@@ -142,22 +183,69 @@ body {
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: auto;
+    margin-left: -15px;
 }
 
-.obs{
-    
+.fifth .right {
+    margin-left: 526px;
 }
 
-.obsi{
-    
+
+.blackpart {
+    border-bottom: 26px solid transparent;
+    border-left: 32px solid black;
+    border-right: 26px solid transparent;
+    border-top: 25px solid transparent;
+    background-color: transparent;
+    height: 174px;
+    width: 0;
+}
+
+
+.whitepart {
+    border-bottom: 22px solid transparent;
+    border-left: 28px solid white;
+    border-right: 0px solid transparent;
+    border-top: 21px solid transparent;
+    background-color: transparent;
+    height: 173px;
+    width: 0;
+    margin-left: -13px;
+    top: 4px;
+}
+
+.p.obs {
+    font-size: 12px;
+    text-indent: 10%;
+    margin-top: 2px;
+}
+
+.p.obsi{
+    color:transparent;
+    font-size: 12px;
+    text-indent: 10%;
+    margin-top: 2px;
 }
 
 #tip {
     float: right;
-    position:relative;
+    position: relative;
     right: -1%;
     bottom: 10%;
     width: 229px;
     height: 120px;
+    background-color: #ffffff;
+    border-style: ridge;
+    text-align: left;
+    
+}
+
+#tip p {
+    margin: 4px 0px 0px 10px;
+    
+}
+
+#tip h4 {
+    margin: 8px 0px 4px 10px;
+    font-family: chelsea-market;
 }
